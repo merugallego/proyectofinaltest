@@ -1,0 +1,293 @@
+
+/*Inicio*/
+
+body {
+    font-family:  'Abel', sans-serif;
+    /*background-color: #737373; */
+    /*padding-left: 10px;*/ 
+    background-image: linear-gradient(#737373, rgb(51, 48, 48));
+    }
+
+
+.headerInicio{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-bottom: 200px;
+    
+}
+
+.logo{
+    height: 400px;
+    width: 400px;
+    padding-top: 50px;
+    }
+
+.headerInicio div {
+    color: #BAD4AA;
+    font-size: 15px;
+    letter-spacing: 0.5mm;
+    word-spacing: 05px;
+    text-decoration: none;
+    margin-left:10px;
+    }
+
+.menuPrincipal a:link {text-decoration: none; color:white}
+.menuPrincipal a:visited {text-decoration: none;color:white}
+.menuPrincipal a:hover {color:rgb(212, 202, 202)}
+.menuPrincipal a:active {text-decoration: none;color:white}
+
+.banner{
+    height: 110%;
+    width: 100%;
+    /*padding-top: 20px;*/
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.mainInicio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}*/
+
+
+.Presentacion{
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    line-height: 25px;
+}
+
+.Presentacion h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.serviciosInicio{
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    }
+
+
+/*form */
+
+form{
+    justify-content: left;
+    margin-top:10px;
+    margin-left: 100px;
+	width:100%;
+    height: 550px;
+	padding: 12px;
+    border-radius: 8px;
+    color: white;
+    }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+input[type=submit] {
+    width: 100%;
+    background-color: #c58a1d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+input[type=submit]:hover {
+    background-color: #e0ac00;
+    }
+
+    
+
+.infoContacto{
+    line-height: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+/*
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    border-top: white 3px solid;
+    padding-top: 20px;
+    }
+
+.footer img{
+    height: 200px;
+    width: 200px;
+    padding: -100px;
+}
+*/
+
+.footer {
+    background-color: #292c2f;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 45px 50px;
+  }
+  
+  .footer .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  
+  .footer p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+
+.footer-right img{
+      float: right;
+      margin-top: -50px;
+      max-width: 180px;
+      height: 200px;
+      width: 200px;
+      transition: ease .25s;
+    }
+  
+  
+.footer p.footer-links a:hover{color: gray;}
+.footer a:visited {text-decoration: none;color:white}
+
+/*Nosotros*/
+
+
+.headerSecciones{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 200px;
+    }
+
+.menuPrincipalSecciones {
+    color: #BAD4AA;
+    font-size: 15px;
+    letter-spacing: 0.5mm;
+    word-spacing: 05px;
+    text-decoration: none;
+    margin:10px;
+    align-self: end;
+    justify-self: end;
+    margin-bottom: 97px;
+    margin-right: 200px;
+    }
+
+.logoSecciones {
+    height: 300px;
+    width: 300px;
+    }
+
+.menuPrincipalSecciones a:link {text-decoration: none; color:white}
+.menuPrincipalSecciones a:visited {text-decoration: none;color:white}
+.menuPrincipalSecciones a:hover {color:rgb(212, 202, 202)}
+.menuPrincipalSecciones a:active {text-decoration: none;color:white}
+
+.Nosotros{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 100px;
+    color: blanchedalmond;
+    margin-bottom: 100px;
+    margin-left: 55px;
+    text-justify: auto;
+}
+
+.Nosotros h2{
+    letter-spacing: 1.5mm;
+}
+
+.imagenObrero {
+    height: 400px;
+    width: 500px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-right: 200px;
+    padding-left: 50px;
+    }
+
+/*Nuestras obras*/
+
+.titulos{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    letter-spacing: 1.5mm;
+}
+.imagenesObras{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    align-content: space-around;
+}
+
+.imagenesObras img{
+    width:30rem;
+    height:25rem;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    border-radius: 8px; 
+    }
+
+
+    .whatsapp{
+        height: 40px;
+        width: 40px;
+    }
+
+
+    .transformaciones{
+        width: 25px;
+        height: 25px;
+    }
+
+    .transformaciones:hover {
+        transform:rotate(45deg);
+    }
